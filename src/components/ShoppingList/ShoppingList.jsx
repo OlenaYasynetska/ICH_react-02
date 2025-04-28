@@ -1,20 +1,15 @@
-import React from "react";
-import styles from "./ShoppingList.module.css";
-
-function ShoppingList({ items }) {
-  return (
-    <div>
-      {items.length > 0 ? (
-        <ul className={styles.list}>
-          {items.map((item, index) => (
-            <li key={index} className={styles.listItem}>{item}</li>
-          ))}
-        </ul>
-      ) : (
-        <p>Список покупок пуст</p>
-      )}
-    </div>
-  );
-}
-
-export default ShoppingList;
+function ShoppingList({ items = [] }) {
+    if (items.length === 0) {
+      return <p>Список покупок пуст</p>;
+    }
+  
+    return (
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    );
+  }
+  
+  export default ShoppingList;

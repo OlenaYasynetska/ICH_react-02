@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./components/Greeting";
+
+import "./Greeting.module.css";
 
 function Greeting({ name }) {
-    return <h1 className={styles.greeting}>Привет, {name}!</h1>;
+  return <h1>Привет, {name}!</h1>;
 }
 
 export default Greeting;
