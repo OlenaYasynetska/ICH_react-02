@@ -1,5 +1,5 @@
 import Greeting from './components/Greeting/Greeting.jsx';
-import ShoppingList from './components/ShoppingList/ShoppingList.jsx';
+import ShoppingList from './components/ShoppingList/ShoppingList';
 import OrderStatus from './components/OrderStatus/OrderStatus.jsx';
 import './index.css';
 
