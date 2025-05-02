@@ -1,7 +1,7 @@
-import Greeting from './components/Greeting/Greeting.jsx';
-import ShoppingList from './components/ShoppingList/ShoppingList';
-import OrderStatus from './components/OrderStatus/OrderStatus.jsx';
-import './index.css';
+import Greeting from '../Greeting/Greeting.jsx';
+import ShoppingList from '../ShoppingList/ShoppingList.jsx';
+import OrderStatus from '../OrderStatus/OrderStatus.jsx';
+import './App.css';
 
 function App() {
  
